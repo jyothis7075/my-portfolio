@@ -113,18 +113,7 @@ topBtn.addEventListener("click", () => {
 
 });
 
-// Resume Download Alert
-const resumeBtn = document.querySelector(".btn");
 
-if (resumeBtn) {
-
-    resumeBtn.addEventListener("click", () => {
-
-        alert("Your resume download will begin shortly.");
-
-    });
-
-}
 
 // Contact Links Hover Effect
 const socialLinks = document.querySelectorAll(".socials a");
